@@ -1,18 +1,15 @@
-package stepDefenitions;
+package stepDefinitions;
 
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.And;
-import io.cucumber.junit.Cucumber;
-import org.junit.runner.RunWith;
 
 
-@RunWith(Cucumber.class)
-public class Login {
+public class stepDefinition {
 
 
-    @Given("^User is on NetBanking default page$")
+    @Given("User is on NetBanking default page")
     public void user_is_on_netbanking_default_page() throws Throwable {
 
     }
